@@ -1,3 +1,78 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
+
+
+.profil {
+    
+    border-radius: 0 30% 0 30%;
+    width: 20%;
+    border: solid black;
+    margin: 6% 0 0% 40%
+
+    
+}
+
+section {
+overflow: auto;
+padding: 30px 15%;
+
+}
+
+body {
+margin: 0;
+padding: 0 20% 0 20%;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+color: black;
+background-color: rgb(105, 105, 77);
+
+
+
+}
+
+.contact,
+.character {
+
+    text-align: center;
+}
+
+
+
+h1,
+h2,
+h3 {
+    color: black;
+    margin: 0;
+}
+
+h1{
+    font-size: 80px;
+    text-align: center;
+    background-color: rgb(235, 240, 197);
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(208, 226, 103);
+
+
+
+}
+
+a:hover {
+    color: darkgreen;
+}
+a {
+    color: goldenrod;
+}
+
+
+
+
+  h2:hover {
+    background-color: yellowgreen;
+  }  
+
+  
